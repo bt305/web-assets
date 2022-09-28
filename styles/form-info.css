@@ -1,0 +1,9 @@
+.form-info {
+  display: none;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  position: relative;
+  text-align: center;
+  margin-top: 16px;
+}

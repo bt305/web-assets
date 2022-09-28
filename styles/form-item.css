@@ -1,0 +1,47 @@
+.form-item {
+  display: block;
+}
+
+.form-item label {
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  padding-bottom: 6px;
+}
+
+.form-item.form-item-email label {
+  visibility: hidden;
+  padding-top: 15px;
+}
+
+.form-item input[type='text'],
+.form-item input[type='tel'],
+.form-item input[type='email'],
+.form-item input[type='password'],
+.form-item input[type='number'] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #fff;
+  border: 0;
+  border-bottom: 2px solid #737373;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #1d1d1d;
+  display: block;
+  flex: 1;
+  font-family: Barlow, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  height: 30px;
+  line-height: 24px;
+  outline: none;
+  padding: 0 0 4px;
+  width: 100%;
+}
+
+.form-item input:focus {
+  border-color: #1d1d1d;
+}
+
+.form-item input::placeholder {
+  color: #737373;
+}

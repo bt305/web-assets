@@ -1,0 +1,29 @@
+.form-item.form-item-verify label {
+  color: #1d1d1d;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+  padding: 0 0 16px;
+}
+
+.form-item.form-item-verify input[type='tel'] {
+  background-image: repeating-linear-gradient(
+    90deg,
+    #1d1d1d 0,
+    #1d1d1d 1ch,
+    transparent 0,
+    transparent 2ch
+  );
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 11ch 2px;
+  border: 0;
+  font-family: menlo, monospace;
+  font-size: 28px;
+  height: 40px;
+  letter-spacing: 1ch;
+  line-height: 34px;
+  margin: 0;
+  text-align: left;
+  width: 210px;
+}
